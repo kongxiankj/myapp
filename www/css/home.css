@@ -1,0 +1,66 @@
+.home .nav-bg {
+  background-color: #fff;
+  padding: 3px 5px 0px 5px;
+  font-size: 12px;
+  font-family: 'SiYuanRegulare47ceee64582'; }
+.home .sub-head img {
+  width: 60%;
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  border-radius: 15px; }
+.home .home-calm img {
+  width: 100%; }
+.home .proarea {
+  padding-bottom: 10px; }
+.home .home-pad {
+  padding: 2px 5px 0px 5px; }
+.home .col p {
+  font-size: 12px; }
+.home .del {
+  width: 60%; }
+.home .right {
+  width: 60%;
+  margin-right: 0px;
+  margin-left: auto; }
+
+.sign .banner {
+  background: url("../img/sign.png"); }
+.sign .tsign {
+  margin: 0px 10px;
+  background-color: #5ac9fe;
+  border-radius: 5px;
+  color: #ffffff;
+  font-size: 16px;
+  padding: 10px; }
+.sign .qdgz {
+  margin: 20px 0px;
+  font-size: 16px; }
+.sign .num {
+  font-size: 30px;
+  color: #ff611b; }
+.sign .hed {
+  position: absolute;
+  top: 5px; }
+.sign .tnum {
+  position: absolute;
+  top: 32%;
+  right: 12%;
+  color: #ffffff;
+  font-size: 48px;
+  font-weight: bold; }
+
+.regular .regular-title {
+  font-size: 14px;
+  color: #363636;
+  padding-left: 10px;
+  margin-top: 10px; }
+.regular .rg {
+  border-left: 6px solid #5ac9fe;
+  padding-left: 5px; }
+.regular .regular-text {
+  font-size: 10px;
+  color: #7a7a7a;
+  line-height: 15px;
+  padding: 0px 10px; }
+
+/*# sourceMappingURL=home.css.map */

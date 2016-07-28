@@ -1,0 +1,100 @@
+.mytask{
+  .bg{
+    background-color: #F5F5F5;
+  }
+  .pro{
+    margin:5px 0;
+    box-shadow:none;
+  }
+  .pro-mon{
+    padding-right: 15px;
+    font-size: 10px;
+  }
+  .pro-tip{
+    border-top:1px solid #ccc;
+    margin:0 10px;
+    font-size: 10px;
+    color: #a3a3a3;
+  }
+  .pro-item{
+    line-height: 18px;
+    padding-top: 14px;
+    position: relative;
+  }
+  .our-task{
+    color: red;
+  }
+
+  }
+
+.submittask{
+
+  background-color: #f5f5f5;
+  .detail-title{
+    font-size: 14px;
+    padding:5px 10px 0px;
+    margin: 0px 2px;
+    color: #363636;
+    background-color: #ffffff;
+  }
+  .pro-explain{
+    background-color: #ffffff;
+    padding: 3px 0px;
+  }
+  .rg{
+    border-left: 6px solid #5ac9fe;
+    padding-left: 5px;
+  }
+  .pro-tip{
+    border-top:1px solid #ccc;
+    margin:0 10px;
+    font-size: 10px;
+    color: #a3a3a3;
+  }
+  .instruction{
+    padding: 3px 10px;
+    font-size: 10px;
+    color: #7a7a7a;
+    line-height: 16px;
+  }
+  .godown{
+    background-color: #5ac9fe;
+    margin: 3px 10px;
+    border-radius: 5px;
+    padding: 6px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 16px;
+  }
+  .input{
+    padding: 5px 0px 5px 3px;
+  }
+  .sub-input{
+    font-size: 14px;
+    margin: 0px 2px;
+    color: #363636;
+    background-color: #ffffff;
+  }
+  .mobile{
+    border:1px solid #e6e6e4;
+    border-radius: 3px;
+    padding-left: 5px;
+  }
+  .scroll-img{
+    width: 25%;
+    padding-right: 8px;
+  }
+  .img-padding{
+    padding: 8px 10px;
+    border: 0px;
+  }
+  .img-up{
+    font-size: 50px;
+    border: 1px dashed #363636;
+    padding: 5px 25px;
+  }
+  .foot{
+    background-color: #ff611b;
+    margin: 0 auto;
+  }
+}

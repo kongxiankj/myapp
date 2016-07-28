@@ -1,0 +1,98 @@
+<ion-view class="user" cache-view="false">
+    <ion-content>
+
+        <div class="list" style="background-color: #f5f5f5">
+
+
+            <div class="item item-avatar-left userhed" style="background-color: #5ac7ff">
+
+                <img class="uimg" ng-src="{{user.head_img_url == '' ? 'testsource/img///////////////////user.png' :user.head_img_url}}" ui-sref="tab.userinfo">
+
+                <h2 style="margin: 10px 10px 10px 0px;font-size: 16px;color: #ffffff">用户名</h2>
+
+                <p style="color: #ffffff;font-size: 18px" class="ion-iphone"><span style="font-size: 14px;padding-left: 5px">{{user.phone}}</span></p>
+            </div>
+            <div class="card" style="margin: 0px 0px;box-shadow:none;">
+                <div class="item row text-center  sub-head">
+                    <div class="col col-50 borderright text-left " style="padding: 3px 10px;line-height: 20px">
+                        <a ui-sref="applyoutcome" nav-direction="forward">
+                            <div class="row sub-head">
+                                <div class="col col-50" style="padding: 3px">
+                                    <p style="font-size: 12px">钱包余额</p>
+
+                                    <p style="font-size: 10px"><span class="red">{{user.balance > 0 ?user.balance :0}}</span>元
+                                    </p>
+
+                                </div>
+                                <div class="col col-50 text-right"
+                                     style="padding: 16px 10px;font-size: 12px;font-weight: bold">提现
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col col-50" style="padding: 3px;line-height: 20px" ui-sref="lucydraw" nav-direction="forward">
+                        <div class="row text-left sub-head">
+                            <div class="col col-50" style="padding: 3px">
+                                <p style="font-size: 12px">积分</p>
+
+                                <p style="font-size: 10px"><span class="red">{{user.points}}</span>分</p>
+                            </div>
+                            <div class="col col-50 text-right"
+                                 style="padding: 16px 10px;font-size: 12px;font-weight: bold">抽奖
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card pro">
+              <div class="item item-icon-left item-icon-right pro-item" ui-sref="tab.receivepupil">
+                <i class="icon icon-enlightening icon-our"></i>
+
+                <h2 class="msg">我要收徒</h2>
+                <i class="icon ion-ios-arrow-right go"></i>
+              </div>
+
+                <div class="item item-icon-left item-icon-right pro-item" ui-sref="tab.message">
+                    <i class="icon icon-My-news icon-our go"></i>
+
+                    <h2 class="msg">我的消息</h2>
+                    <i class="icon ion-ios-arrow-right go"></i>
+                </div>
+            </div>
+
+            <div class="card pro">
+                <!--<div class="item item-icon-left item-icon-right pro-item" ui-sref="tab.feedback">-->
+                    <!--<i class="icon icon-feedback icon-our"></i>-->
+
+                    <!--<h2 class="msg">意见反馈</h2>-->
+                    <!--<i class="icon ion-ios-arrow-right go"></i>-->
+                <!--</div>-->
+              <div class="item item-icon-left item-icon-right pro-item" ui-sref="tab.linkman">
+                <i class="icon icon-Contact-customer-service icon-our"></i>
+                <h2 class="msg">联系客服</h2>
+                <i class="icon ion-ios-arrow-right go"></i>
+              </div>
+            </div>
+            <div class="card pro">
+                <div class="itempad item item-icon-left item-icon-right ">
+                    <i class="icon icon-Clear-the-cache go"></i>
+
+                    <h2 style="color: #363636;">清理缓存</h2>
+                </div>
+            </div>
+            <div class="card pro">
+                <div class="itempad item item-icon-left item-icon-right ">
+                    <i class="icon icon-Check-the-update go"></i>
+
+                    <h2 style="color: #363636;">检查更新</h2>
+                </div>
+            </div>
+            <div class="card pro"  ng-click="layout()">
+                <div class="text-center" style="padding: 10px;color: #363636;">
+                    退出当前账户
+                </div>
+            </div>
+
+        </div>
+    </ion-content>
+</ion-view>

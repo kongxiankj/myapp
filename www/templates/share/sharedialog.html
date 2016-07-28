@@ -1,0 +1,51 @@
+<style>
+    .confirmbox {
+        text-align: center;
+    }
+
+    .ngdialog.ngdialog-theme-plain .ngdialog-content {
+        color: #000000;
+        font-family: 'Helvetica Neue', sans-serif;
+        font-size: 1.1em;
+        line-height: 1.5em;
+        margin-bottom: 0px;
+        max-width: 100%;
+        padding: 0;
+        position: fixed;
+        bottom: 0px;
+        width: 100%;
+        height: 200px;
+
+    }
+
+</style>
+<div class="sharedialog" ng-controller="ProductController">
+
+
+    <div class="confirmbox">
+        <div class="item-input lab">
+            <span class="item-lab">添加分享描述:</span>
+            <input class="text" type="text" placeholder="">
+        </div>
+        <div>
+            <textarea class="textarea">{{titles}}</textarea>
+        </div>
+    </div>
+    <div class="row row-btn">
+        <div class="col col-33 text-center" ng-click="closeThisDialog('button')" style="padding: 8px 10px;">
+            <button class="button button-full btn jump">
+                跳过
+            </button>
+        </div>
+        <div class="col col-33 text-center" ng-click="changevalue()" style="padding:8px 10px;">
+            <button class="button button-full btn change">
+                换一换
+            </button>
+        </div>
+        <div class="col col-33 text-center" ng-click="confirm(confirmValue)" style="padding:8px 10px;">
+            <button class="button button-full btn copy">
+                复制
+            </button>
+        </div>
+    </div>
+</div>

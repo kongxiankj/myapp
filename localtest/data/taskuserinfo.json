@@ -1,0 +1,14 @@
+{
+    "status": "1",
+    "desc": "taskList",
+    "message": "ok",
+    "bind_mobile_phone": "1",
+    "data": {
+        "userid":"1",
+        "bind_mobile_phone": "1",
+        "mytask":"10",
+        "myincome":"8.00"
+
+    }
+}
+

@@ -1,0 +1,32 @@
+{
+    "status": "1",
+    "desc": "userinfo",
+    "message": "ok",
+    "data": {
+        "id":"1",
+        "user_name": "wy",
+        "gender":"女",
+        "birthday":"1988-08-24",
+        "identify":"13012345677888888",
+        "head_img_url":"img/pro3.png",
+        "wechat_num":"wyllaz",
+        "qq_num":"382923253",
+        "bank_num":"1234567890",
+        "alipay_num":"382923253",
+        "real_name":"王英",
+        "open_bank":"招商银行",
+        "promo_code":"wxyz",
+        "balance":"24.00",
+        "register_ip":"192.168.1.90",
+        "master":"",
+        "phone":"18810711569",
+        "password":"123456",
+        "freeze":"否",
+        "abnormal":"否",
+        "points":"90",
+        "last_sign_time":"2016-07-24",
+        "sign_num":"56",
+        "abnocontinue_dayrmal":"3"
+    }
+
+}

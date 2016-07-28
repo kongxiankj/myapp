@@ -1,0 +1,75 @@
+<ion-view class="userinfo" cache-view="false" hide-tabs="true">
+  <ion-header-bar style="background-color: #5AC9FE;">
+    <a onclick="history.go(-1)"> <i class="ion-chevron-left backion light" style="font-size: 20px ;line-height: 30px;padding-left: 10px"></i></a>
+    <h5 class="title">个人资料</h5>
+    <a ng-click="" style="color: white;font-size: 12px;" class="edit">编辑</a>
+  </ion-header-bar>
+  <ion-content style="background-color: #F5F5F5;">
+    <form action="" method="post">
+
+      <div style="background-color: #fff;">
+        <div class="item item-avatar text-center setHead" style="background-color: #5AC9FE">
+          <div class="headimg"  ng-init="userImgUrl='img/user.png'">
+            <img class="uimg" ng-src="{{userImgUrl}}">
+          </div>
+          <h2>
+            <a ngf-select="upload($file)" ng-model="file" ngf-pattern="image/*"
+               accept="image/*" ngf-resize="{width: 76, height: 76}">设置图像</a></h2>
+        </div>
+
+        <div class="detaillist">
+          <div class="row">
+            <div class="col col-85 text-left">姓名</div>
+            <div class="col col-15 text-right"><input type="text" value="输入姓名"  name="name" disabled class="name"/></div>
+          </div>
+
+          <div class="row">
+            <div class="col col-30 text-left">性别</div>
+            <div class="col col-35 text-right"><input type="radio" name="sex" value="male" checked="yes" disabled="disabled">男
+            </div>
+            <div class="col col-35 text-right"><input type="radio" name="sex" value="female" disabled="disabled">女
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col col-30 text-left">出生年月</div>
+            <div class="col col-70 text-center">
+              <input type="month" name="" value="1916-02" max="2016-07" min="1916-01" step="1" class="birthday" style="margin-right: 10px"/>
+            </div>
+          </div>
+
+          <div class="row identity">
+            <div class="col col-30 text-left">身份</div>
+            <div class="col col-35 text-right"><input type="radio" name="identity" value="student" checked="yes" disabled >学生
+            </div>
+            <div class="col col-35 text-right"><input type="radio" name="identity" value="society" disabled>社会
+            </div>
+          </div>
+        </div>
+
+        <div class="grey"></div>
+
+        <div class="detaillist">
+          <div class="row">
+            <div class="col col-40 text-left">微信号</div> <!--微信号最多20位-->
+            <div class="col col-60 text-right"><input type="number" value="11111111111111111111" max="" class="name" disabled/></div>
+          </div>
+          <div class="row" style="border-bottom: none;">
+            <div class="col col-40 text-left">QQ号</div>
+            <div class="col col-60 text-right"><input type="text" value="11111111111111111111" disabled class="name"/></div>
+          </div>
+        </div>
+
+        <div class="grey"></div>
+      </div>
+
+
+    </form>
+
+
+  </ion-content>
+
+
+
+</ion-view>
+

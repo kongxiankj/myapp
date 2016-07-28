@@ -1,0 +1,35 @@
+{
+    "status": "1",
+    "desc": "product",
+    "message": "ok",
+    "data": [{
+                "id": "99",
+                "status":"进行中",
+                "name": "\u4e50\u5fc31",
+                "online_num": "100",
+                "besides_num":"45",
+                "produce_category": "1",
+                "repeat": "1",
+                "produce_desc": "本产品主要用于第三方服务",
+                "produce_price": "14.5",
+                "online_time": "2016-07-24",
+                "end_time": "2016-07-31",
+                "continue_time": "",
+                "area": "all",
+                "group": "all",
+                "produce_img_url": "img/pro1.png",
+                "produce_notice": "第一步：注册用户",
+                "down_url": "www.baidu.com",
+                "example_img_url": ["img/sub1.png","img/sub2.png","img/sub3.png"],
+                "article": "1、好友注册时添加注册码，或好友通过扫描您的二维码注册,2、您的徒弟完成任务之后，您可得奖励1元钱，最高为10元",
+                "task1_is_need": "http:\/\/a1.mzstatic.com\/us\/r30\/Purple49\/v4\/81\/f0\/4d\/81f04dfa-84d5-eb83-abcc-037110f9df65\/icon180x180.jpeg"
+                "task2_is_need": "http:\/\/a1.mzstatic.com\/us\/r30\/Purple49\/v4\/81\/f0\/4d\/81f04dfa-84d5-eb83-abcc-037110f9df65\/icon180x180.jpeg"
+                "task3_is_need": "http:\/\/a1.mzstatic.com\/us\/r30\/Purple49\/v4\/81\/f0\/4d\/81f04dfa-84d5-eb83-abcc-037110f9df65\/icon180x180.jpeg"
+                "task4_is_need": "http:\/\/a1.mzstatic.com\/us\/r30\/Purple49\/v4\/81\/f0\/4d\/81f04dfa-84d5-eb83-abcc-037110f9df65\/icon180x180.jpeg"
+                "is_share_to": "http:\/\/a1.mzstatic.com\/us\/r30\/Purple49\/v4\/81\/f0\/4d\/81f04dfa-84d5-eb83-abcc-037110f9df65\/icon180x180.jpeg"
+                "is_share_edit":["应用不错，赞一个","大家快来看这里"]
+              }
+        ]
+
+}
+

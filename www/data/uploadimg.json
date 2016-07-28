@@ -1,0 +1,13 @@
+{
+    "status": "1",
+    "desc": "uploadimg",
+    "message": "ok",
+    "img_url": "6.png",
+    "data": {
+        "userid":"1",
+        "bind_mobile_phone": "1",
+        "mytask":"10",
+        "myincome":"8.00"
+
+    }
+}

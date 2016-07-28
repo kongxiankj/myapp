@@ -1,0 +1,118 @@
+.lucydraw{
+  width: 100%;
+  height: 100%;
+  background-image: url(testsource/img/lucydraw.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.lucydraw{
+  .header-bgc {
+    background: #5AC7FF;
+  }
+
+  // -- turn start --
+  .turn {
+    width: 100%;
+    position: relative;
+    text-align: center;
+    margin-top: 20%;
+  }
+
+  .turn-center {
+    position: absolute;
+    top: 0px;
+    width: 22%;
+  }
+  // -- turn end --
+
+  // -- pop start --
+
+  .popWin {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.6);
+    z-index: 10;
+  }
+  .popWin .popWin-box {
+    width: 85%;
+    height: 40%;
+    margin: 0 auto;
+    margin-top: 70%;
+    margin-left: 7%;
+    text-align: center;
+    position: absolute;
+    z-index: 12;
+    padding-top: 10%;
+    //background-color: red;
+  }
+
+  .popWin .popWin-box .text {
+    margin-bottom: 7%;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: "Microsoft YaHei";
+  }
+  .popWin .popWin-box .butt {
+    display: inline-block;
+    width: 65%;
+    height: 32%;
+    text-align: center;
+  }
+
+  .popWin .popWin-box .butt .submit {
+    width: 100%;
+    height: 100%;
+    line-height: 25px;
+    display: inline-block;
+    background-color: #5AC9FE;
+    text-align: center;
+    border-radius: 4px;
+    font-size: 15px;
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .popWin-content .lucydraw-cat {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 11;
+  }
+
+  .popWin-content {
+    position: relative;
+    width: 87%;
+    height: 50%;
+    margin: 25% 7%;
+  }
+  // -- pop end --
+}
+
+
+.lucydrawdetail {
+  .title {
+    font-size: 17px;
+  }
+  .date {
+    color: #a3a3a3;
+    font-size: 12px;
+  }
+  .money {
+    font-size: 14px;
+    color: #363636;
+  }
+  .num {
+    color: #ff7e00;
+  }
+  .row {
+    padding: 4px 0px;
+    border-bottom: 1px solid #E4E5E2;
+  }
+  .detaillist {
+    margin: 0px 10px;
+  }
+}

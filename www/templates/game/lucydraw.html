@@ -1,0 +1,40 @@
+<ion-view class="lucydraw" hide-tabs="true" cache-view="false">
+  <ion-header-bar class="header-bgc">
+    <a onclick="history.go(-1)" nav-direction="back"> <i class="ion-chevron-left backion light" style="font-size: 20px ;line-height: 30px;padding-left: 10px"></i></a>
+  </ion-header-bar>
+  <ion-content class="content">
+
+    <div class="row"  style="padding: 10% 3% 0px;">
+      <div class="col col-70 text-left">
+        <p class="light" style="font-size: 48px;padding-left: 20px;font-weight: 700;">9301</p>
+        <p class="light" style="font-size: 22px;text-align: center;padding-top: 5px;">积分</p>
+      </div>
+      <div class="col col-30 text-right" style="padding: 25px 10px;font-size: 15px">
+        <a ui-sref="lucydrawdetail" class="light" style="padding-right: 10px;">中奖记录</a>
+      </div>
+    </div>
+
+    <div class="turn" id="turn">
+      <canvas class="turntable" id="turntable">
+      </canvas>
+      <!--turntable阴影-->
+      <img src="testsource/img////////////////////turntableshadow.png" alt="转盘阴影" class="turn">
+      <img src="testsource/img////////////////////lucydraw2.png" alt="点击抽奖" class="turn-center" id="turn_center">
+    </div>
+  </ion-content>
+
+  <!--抽奖结果-->
+  <div id="popWin" class="popWin" style="display: none">
+    <div class="popWin-content">
+      <div class="popWin-box" id="popWin_box">
+        <div class="text" id="lucydrawresult"></div>
+        <div class="butt">
+          <a href="javascript:;" class="submit" ng-click="touchYes()">确定</a>
+        </div>
+      </div>
+      <img src="testsource/img////////////////////lucydrawcat.png" alt="恭喜" class="lucydraw-cat"/>
+    </div>
+
+  </div>
+</ion-view>
+

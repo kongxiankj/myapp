@@ -1,0 +1,88 @@
+<ion-view class="submittask"  hide-tabs="true">
+    <ion-header-bar class="bar-header bar-calm">
+        <a ui-sref="productdetail" nav-direction="back">
+            <i class="ion-chevron-left text-center"
+               style="font-size: 20px ;padding: 10px 10px;line-height: 1.8;"></i>
+        </a>
+        <h5 class="title">提交任务</h5>
+    </ion-header-bar>
+    <ion-content>
+        <div class="pro-explain">
+            <p class="detail-title"><span class="rg"></span>任务说明</p>
+
+            <p class="text-center pro-tip">
+            </p>
+
+            <div class="instruction">1、好友注册时添加注册码，或好友通过扫描您的二维码注册。<br/>
+                2、您的徒弟完成任务之后，您可得奖励1元钱，最高为10元
+            </div>
+            <div class="godown" ng-click="getdown()">下载链接</div>
+        </div>
+
+        <div style="margin: 5px 0px" class="pro-explain">
+            <p class="detail-title"><span class="rg"></span>注意事项</p>
+
+            <p class="text-center pro-tip">
+            </p>
+
+            <div class="instruction">
+                1、将本文分享到你的朋友圈，微信好友，QQ好友。在朋友点阅之后，即可获得相应的收益。<br/>
+                2、下载本APP后，分享到你的朋友圈，在朋友点阅之后，即可获得相应的收益
+            </div>
+        </div>
+
+            <form class="form" name="submittask">
+                <div class="sub-input">
+                <div class="item-input input">
+                    <span style="padding:0px 8px"><span class="rg"></span>电话号码:</span>
+                    <input class="mobile" type="text" placeholder="请输入做任务手机号">
+                </div>
+
+                </div>
+
+                <div style="margin: 5px 0px" class="pro-explain">
+                    <p class="detail-title"><span class="rg"></span>图片示例</p>
+
+                    <p class="text-center pro-tip">
+                    </p>
+                    <a class="item item-list-detail img-padding" >
+                        <ion-scroll direction="x">
+                            <img ng-repeat="image in allImages" ng-src="{{image.url}}"
+                                 ng-click="showImages($index)" class="image-list-thumb scroll-img"/>
+                        </ion-scroll>
+                    </a>
+
+                </div>
+
+                <div style="margin: 5px 0px" class="pro-explain">
+                    <p class="detail-title"><span class="rg"></span>上传截图</p>
+
+                    <p class="text-center pro-tip">
+                    </p>
+
+                    <label class="item item-input img-padding">
+                        <div class="row text-center">
+                            <div class="inp" ng-style="imgurl" >
+                                <img ng-src="{{userImgUrl}}" />
+                            </div>
+                            <!--<div class="inp"><img ng-src="{{userImgUrl==null||userImgUrl.length<=0?'upload/5.jpg':userImgUrl}}" /> </div>-->
+                            <div class="inp img-up ion-ios-plus-empty text-center" id="photo" ngf-select="upload($file)" ng-model="file" name="file" ngf-pattern="'image/*'"
+                                 accept="image/*" ngf-max-size="1MB" ngf-min-height="100"
+                                 ngf-resize="{width: 100, height: 100}" style="position: relative;">
+                            </div>
+                        </div>
+                    </label>
+
+
+
+
+
+                </div>
+            </form>
+
+    </ion-content>
+    <ion-footer-bar class="bar-positive foot" align-title="center">
+        <a class="title foot" ng-click="submitTask();">提交</a>
+    </ion-footer-bar>
+
+</ion-view>

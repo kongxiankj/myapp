@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAEE,uBAAS;EACP,KAAK,EAAE,IAAI;EACX,SAAS,EAAE,IAAI;EACf,OAAO,EAAE,OAAO;AAClB,uBAAS;EACP,OAAO,EAAE,OAAO",
+"sources": ["submitsuccess.scss"],
+"names": [],
+"file": "submitsuccess.css"
+}

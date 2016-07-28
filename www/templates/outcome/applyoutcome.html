@@ -1,0 +1,103 @@
+<ion-view class="outcome" hide-tabs="true">
+    <ion-header-bar class="bar-calm">
+        <a onclick="history.go(-1)" nav-direction="back"> <i class="ion-chevron-left backion"
+                ></i></a>
+        <h5 class="title">提现</h5>
+    </ion-header-bar>
+
+    <ion-content>
+        <div class="cbg">
+
+
+            <ul class="item-list">
+
+                <li class="item item-thumbnail-left ht">
+                    <img src="testsource/img///////////////////////////////////////////////////////////zhifubao.png">
+
+                    <div class="apply">
+                        <h2>支付宝</h2>
+
+                        <p>未绑定</p>
+                    </div>
+
+                </li>
+                <div id="btn" class="open" ng-click="openother()">
+                    查看更多提现方式<span class=" ion-ios-arrow-down"></span>
+                </div>
+                <div id="other">
+                    <li class="item item-thumbnail-left ht">
+                        <img src="testsource/img///////////////////////////////////////////////////////////weixin.png">
+
+                        <div class="apply">
+                            <h2>微信</h2>
+
+                            <p>未绑定</p>
+                        </div>
+                    </li>
+
+                    <li class="item item-thumbnail-left ht">
+                        <img src="testsource/img///////////////////////////////////////////////////////////yinhangka.png">
+
+                        <div class="apply">
+                            <h2>银行卡</h2>
+
+                            <p>未绑定</p>
+                        </div>
+                    </li>
+                    <div class="ion-chevron-up open" ng-click="closeother()">
+
+                    </div>
+                </div>
+            </ul>
+            <div style="height: 5px"> </div>
+            <div class="padding balance" style="border-bottom: 1px solid #a3a3a3">
+                可提现余额： 30 元
+            </div>
+            <ion-item class="clam">
+
+                <div class="row" id="pickmoney">
+                    <div class="col col-20 text-left" style="width: 90px;line-height: 35px;">提现金额：</div>
+                    <div class="col col-80">
+                        <div class="row text-center" style="margin-bottom:20px;">
+                            <div class="col col-33 ">
+                                <span class="moneybox active" ng-click="select(0)">10元</span>
+                            </div>
+                            <div class="col col-33">
+                                <span class="moneybox" ng-click="select(1)">20元</span>
+                            </div>
+                            <div class="col col-33">
+                                <span class="moneybox" ng-click="select(2)">30元</span>
+                            </div>
+                        </div>
+                        <div class="row text-center" style="margin-bottom:20px;">
+                            <div class="col col-33 ">
+                                <span class="moneybox" ng-click="select(3)">10元</span></div>
+                            <div class="col col-33">
+                                <span class="moneybox" ng-click="select(4)">20元</span>
+                            </div>
+                            <div class="col col-33">
+                                <span class="moneybox" ng-click="select(5)">30元</span>
+                            </div>
+                        </div>
+                        <div class="row text-center">
+                            <div class="col col-33 ">
+                                <span class="moneybox" ng-click="select(6)">10元</span></div>
+                            <div class="col col-33">
+                                <span class="moneybox" ng-click="select(7)">20元</span>
+                            </div>
+                            <div class="col col-33">
+                                <span class="moneybox" ng-click="select(8)">30元</span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </ion-item>
+            <div  class="padding">
+
+                <p class="tip">支付宝提现每天下午5点之前，当日到账，下午5点之后，次日到账，每日提现最多10次</p>
+            <div class="subbtn">确认提交</div>
+            </div>
+        </div>
+    </ion-content>
+</ion-view>
